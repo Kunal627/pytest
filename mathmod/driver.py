@@ -1,5 +1,4 @@
 import mathclass
-
 # Driver Code 
 num = 5; 
 math = mathclass.MathClass()

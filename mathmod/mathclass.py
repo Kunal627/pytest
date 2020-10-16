@@ -1,5 +1,3 @@
-
-
 class MathClass(object):
     def __init__(self):
         self.num = 0
