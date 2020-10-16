@@ -19,8 +19,3 @@ class MathClass(object):
     def square(self, n):
         return n * n
   
-# Driver Code 
-num = 5; 
-math = MathClass()
-print(math.factorial(5))
-print(math.square(3))
