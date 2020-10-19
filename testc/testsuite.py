@@ -22,7 +22,7 @@ def test_factorial(math_class):
 
 @pytest.mark.parametrize("n1,n2", [
     (2,2),
-    (3,9),
+    (2,2),
 ])
 def test_scenarios(n1, n2,math_class):
     fact = math_class.factorial(n1)
