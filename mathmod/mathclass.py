@@ -17,3 +17,8 @@ class MathClass(object):
     def square(self, n):
         return n * n
   
+    def add10(self, n):
+        return n + 10
+
+    def sub10(self, n):
+        return n - 10

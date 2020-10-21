@@ -19,6 +19,11 @@ def test_init(math_class):
 def test_factorial(math_class):
     assert math_class.factorial(5) == 120
 
+def test_factorial1(math_class):
+    assert math_class.factorial(-1) == 0
+
+def test_factorial3(math_class):
+    assert math_class.factorial(1) == 1
 
 @pytest.mark.parametrize("n1,n2", [
     (2,2),
