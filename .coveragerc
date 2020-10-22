@@ -1,0 +1,6 @@
+[run]
+omit = 
+    # omit init and setup and driver files 
+    *__init*
+    *setup*
+    *driver*
