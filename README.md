@@ -1,4 +1,5 @@
-This is just a dummy package for pytest.
+This is just a dummy repo for exploring pytest and sonarqube
+=============================================================
 
 1) pytest ./testsuite.py  - for running the test cases
 2) install coverage for code coverage 
@@ -6,9 +7,9 @@ This is just a dummy package for pytest.
    coverage report -m 
    coverage html
 
-Stand up a docker image of sonar cube 
-3) Install Sonar scanner for windows 64 
-4) set the sonar install dir/bin in syatem path
-5) run sonar-scanner in the project base folder
+3) Stand up a docker image of sonar cube 
+4) Install Sonar scanner for windows 64 
+5) set the sonar install dir/bin in syatem path
+6) run sonar-scanner in the project base folder
 
-go to localhost:9000  for sonar ui and use admin/admin creds
+7) go to localhost:9000  for sonar ui and use admin/admin creds
