@@ -35,3 +35,10 @@ def test_scenarios(n1, n2,math_class):
     assert fact == square - 2
 
 
+def test_add10(math_class):
+    n = math_class.add10(10)
+    assert n  == 20
+
+def test_sub10(math_class):
+    n = math_class.sub10(30)
+    assert n  == 20
